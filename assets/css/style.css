@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lustria&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: RGB(245, 240, 236);
+    background-color: RGB(0, 0, 0);
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Lustria, sans-serif;
+    letter-spacing: 4px;
+    color: RGB(245, 240, 236);
+}
+
+/* hero-image */
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url(../images/jmc-hero-image.webp) no-repeat center center;
 }
