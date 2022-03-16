@@ -78,3 +78,12 @@ nav a {
   width: 100%;
   background: url(../images/jmc-hero-image.webp) no-repeat center center;
 }
+.parent {
+  display:flex;
+  justify-content: center;
+}
+.child {
+  width: 30%;
+  height: auto; 
+  padding: 0 20px 20px;
+}
