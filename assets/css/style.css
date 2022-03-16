@@ -1,58 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lustria&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300;400&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: RGB(245, 240, 236);
-    background-color: RGB(0, 0, 0);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 300;
+  color: rgb(240, 214, 187);
+  background-color: rgb(53, 53, 53);
+
 }
 
 /* headings */
 
-h1, h2 {
-    font-family: Lustria, sans-serif;
-    letter-spacing: 4px;
-    color: RGB(245, 240, 236);
+h1,h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  /*letter-spacing: 4px;*/
+  color: rgb(240, 214, 187);
+  margin-top: 0em;
+
+
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
+header {
+  padding: 20px 0;
+ 
 }
-
-#menu, {
-    line-height: 75px;
+.container {
+  padding: 0 20px;
+  max-width: 960px;
+  margin: 0 auto;  
+  
 }
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+.crest {
+  float: left;
+  margin-right: 20px;
 }
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
+.crest a {
+  outline: none;
+  display: block;
 }
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+.crest img {
+  display: block;
 }
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
+nav {
+  overflow: hidden;
+  
 }
-
-/* hero-image */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+    
+}
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  height: 70px;
+  line-height: 70px;
+  /*transition: 0.5s linear;*/
+  
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: #868686;
+  text-transform: uppercase;
+}
 
 #hero-image {
-    height: 800px;
-    width: 100%;
-    background: url(../images/jmc-hero-image.webp) no-repeat center center;
+  height: 800px;
+  width: 100%;
+  background: url(../images/jmc-hero-image.webp) no-repeat center center;
 }
